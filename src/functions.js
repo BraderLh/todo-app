@@ -1,0 +1,1 @@
+tasks.forEach(li => console.log(li))

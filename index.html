@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/styles/index.css">
+  <title>Todo App</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div>
+      <h1>TODO</h1>
+      <img src="images/icon-sun.svg" alt="light-mode">
+    </div>
+  </header>
+  <main>
+    <div>
+      <input
+        id="taskInput"
+        type="text"
+        class="task__input"
+        placeholder="Create a new task ..."
+      />
+    </div>
+    <div>
+      <ul class="task__list">
+        
+      </ul>
+    </div>
+    <div>
+      <div id="sizeList">Items:
+        <span id="allCheckedCount">0</span> /
+        <span id="allCheckboxesCount">0</span>
+      </div>
+      <div>
+        <p>All</p>
+        <p>Active</p>
+        <p>Completed</p>
+      </div>
+      <div>
+        <p>Clear Completed</p>
+      </div>
+    </div>
+  </main>
+  <script src="./src/main.js"></script>
+  <script src="./src/functions.js"></script>
+</body>
+</html>

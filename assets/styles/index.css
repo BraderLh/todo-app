@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --font-family: "Josefin Sans", sans-serif;
+    --font-optical-sizing: auto;
+    --font-size: 18px;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-style: normal; 
+    --font-variation-settings: "wdth" 100;
+
+    --primary-select: hsl(220, 98%, 61%);
+    --primary-checkbackground: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    --primary-dark-backgroundcolor: hsl(235, 21%, 11%);
+    --secondary-dark-backgroundcolor: hsl(235, 24%, 19%);
+    --third-color: hsl(234, 39%, 85%);
+    --fourth-color: hsl(236, 33%, 92%);
+    --fifth-color: hsl(234, 11%, 52%);
+    --sixth-color: hsl(233, 14%, 35%);
+    --seventh-color: hsl(237, 14%, 26%);
+}
+
+html {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+
+body {
+    align-items: center;
+    background-color: var(--primary-dark-backgroundcolor);
+    color: var(--fourth-color);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    width: 500px;
+    min-height: 400px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.content {
+    
+}
